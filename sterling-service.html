@@ -1,0 +1,319 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>Sterling Myanmar Service Page</title>
+        <style>
+            .container{
+                width: 100%;
+                height: 100%;
+            }
+            .header{
+                position: fixed;
+                width: 100%;
+                height: 60px;
+                top: 0;
+                left: 0;           
+                background-color: rgb(16, 122, 71);
+                opacity:0.9;
+               
+            }
+            .image{
+                width: 30%;
+                position: absolute;
+                padding-left: 100px;
+            }
+            .imagelogo{
+                padding: 5px;
+                margin: 10px;
+            }
+            .navbar{
+                margin: 10px;
+                margin-left: 490px;
+                font: 14px;
+                font-family: Arial, Helvetica, sans-serif;
+                
+            }
+           
+            
+            
+            .nav li{
+                height: 30px;
+                line-height: 30px;
+                width: 110px;
+                text-align: center;
+                display: block;
+               
+               
+            }
+            .nav>li{
+                float:left;
+            }
+            
+            .nav li a{
+                
+                text-decoration: none;
+                color: white;
+            }
+            
+            .subnav{
+               
+                display: none;
+               
+                padding:0;
+                opacity: 0.9;
+                font-size: 14px;
+                
+            }
+            .nav > li:hover .subnav {   
+                   
+                   display: block;     
+            } 
+            .subnav li{
+                background-color: rgb(22, 77, 50);
+                width: 150px;              
+                
+            }
+            .subnav li a{
+               
+                background-color:rgb(22, 77, 50);
+                display: block;
+                border:1px solid rgb(22, 77, 50);
+                border-radius: 5px;
+               
+            }
+            .subnav li a:hover{
+                
+                background-color: white;
+                color: rgb(16, 122, 71);
+            }
+            
+            .title{
+                font-family: 'Times New Roman', Times, serif;
+                text-align:center;
+                width:100%;
+                height: 20px;
+                font-size:30px;
+                margin-top:70px;
+            }
+            .line{
+                width:200px;
+                border-top: 1px solid lawngreen;
+                margin-top: 5px;
+                
+            }
+
+            .row{
+                font-family: Arial, Helvetica, sans-serif;
+            }
+            
+
+            .column1{
+                float: left;
+                width: 33%;
+                padding-top: 23px;
+                padding-left: 100px;
+                line-height: 1.9em;
+                font-size: 14px;
+            }
+            .ul li{
+                list-style: none;
+            }
+            .corlogo{
+                margin-right: 10px;
+            }
+
+            .column2{
+                float: left;
+                width: 50%;
+                padding-top: 25px;
+                padding-left: 25px;
+            }
+            
+            .serimg{
+                float: left;
+                width:45%;
+                margin: 8px;
+                border: 1px solid rgb(231, 216, 216);
+                border-radius: 5px;                
+                padding: 5px;
+                box-shadow: 0 0 2px 1px rgb(224, 211, 211);
+            }
+            .serimg:hover{
+                box-shadow: 0 0 8px 7px rgb(231, 216, 216);
+            }
+            
+
+            .bot{
+                width: 100%;
+                background-color: rgb(224, 220, 220);
+                position: absolute;
+                padding: 0;
+                margin: 0;
+                margin-top: 500px;
+                font-family: Arial, Helvetica, sans-serif;
+                
+            }
+            .linkline{
+                width:100px;
+                border-top: 2px solid lawngreen;
+                
+                
+
+            }
+            .subcol{
+                padding-left: 90px;
+                float: left;                
+                width: 26%;
+                margin:0;
+                font-size: 16px;
+                color: grey;
+            }
+            .subcol h5{
+                padding-left: 35px;
+                text-align: left;
+                font-size: 18px;
+                text-decoration: underline lawngreen;
+                
+            }
+            .subcol ul{
+                list-style-type: none;
+                line-height: 1.8em;
+            }
+            .subcol p{
+                line-height: 1.2em;
+            }
+            .subcol a{
+                text-decoration: none;
+                color: grey;
+            }
+            .fblink{
+                border: 1px solid #ddd;
+                border-radius: 5px;
+                float: left;
+                width:90%;
+                margin: 0;
+                padding: 5px;
+                box-shadow: 0 0 2px 1px lightgray;
+            }
+            .fblink:hover{
+                box-shadow: 0 0 8px 7px lightgray;
+            }
+            
+            .footer{
+                position: fixed;
+                width: 100%;
+                height: 30px;
+                bottom: 0;
+                background-color: rgb(16, 122, 71);
+                color: white;
+                float: left;
+                text-align: center;
+                padding-left: 0;
+                
+            }
+            .footer p{
+                margin-top:5px;
+
+            }
+            .footer a{
+                text-decoration: none;
+                color: blue;
+            }
+
+        </style>
+    </head>
+    <body>
+        <div class="container">
+            <div class="header">
+                <div class="image"><img src="stl_logo.png" width="200px" class="imagelogo">
+                </div>
+                <div class="navbar">
+                    <ul class="nav">
+                        <li><a href="#">Home</a></li>
+                        <li><a href="#">About us</a>
+                            <ul class="subnav">
+                                <li><a href="#">Profile</a></li>
+                                <li><a href="#">Our Structure</a></li>
+                                <li><a href="#">Our Commitment</a></li>
+                            </ul>
+                        </li>
+                        <li><a href="#">Services</a></li>
+                        <li><a href="#">Projects</a>
+                            <ul class="subnav">
+                                <li><a href="#">Industrial</a></li>
+                                <li><a href="#">Commericcal</a></li>
+                                <li><a href="#">Construction & Interior</a></li>
+                                <li><a href="#">Infrastructure</a></li>
+                            </ul>
+                        </li>
+                        <li><a href="#">Activities</a></li>
+                        <li><a href="#">Contact us</a></li>
+
+                    </ul>
+                </div>
+            </div>
+            <!--title-->
+            <div class="title">Our Services<hr class="line"></div>
+            <!--Endtitle-->
+            <!--body-->
+
+            <div class="row">
+                <div class="column1">
+                    <p>You're solution for Industrial Development and Construction in Myanmar.</p>
+                    <ul class="ul">
+                        <li><img src="cor.png" width="20px" class="corlogo">Design & Build</li>
+                        <li><img src="cor.png" width="20px" class="corlogo">Trunkey</li>
+                        <li><img src="cor.png" width="20px" class="corlogo">Joint Venture</li>
+                        <li><img src="cor.png" width="20px" class="corlogo">Bussiness Consultancy</li>
+                        <li><img src="cor.png" width="20px" class="corlogo">Main Contractor</li>
+                    </ul>
+                    <p>Whatever we do, wherever are in construction, the impact for time, budget and quality is beyond customer expectation</p>
+                    <h4>Projects</h4>
+                    <ul>
+                        <li>Construction and Interior</li>
+                        <li>Commercial</li>
+                        <li>Industrial</li>
+                        <li>Infrastructure</li>
+                    </ul>
+                </div>
+                <div class="column2">
+                    <img src="service1.jpg" width="100px" class="serimg">
+                    <img src="service2.jpg" width="100px" class="serimg">
+                    <img src="service3.jpg" width="100px" class="serimg">
+                    <img src="service4.jpg" width="100px" class="serimg">
+                </div>
+                
+            </div>
+            <!--Bottom-->
+            <div class="bot">
+                <div class="subcol">
+                    <h5>Quick Links</h5>
+                   
+                    <ul>
+                        <li><a href="#">Home</a></li>
+                        <li><a href="#">About Us</a></li>
+                        <li><a href="#">Services</a></li>
+                        <li><a href="#">Projects</a></li>
+                        <li><a href="#">Contact</a></li>
+                    </ul>
+                </div>
+                <div class="subcol">
+                    <h5>CONTACT US</h5>
+                    
+                        <p><img src="addres.png" width="20px"> Room – 1008, 10th Floor, Building - B, 50<sup>th</sup> Street Condominium, 50<sup>th</sup> Street, Botahtaung Township, Yangon, Myanmar.</p>
+                        <p><img src="call.png" width="30px"> +(95) 9 4512 999 88, +(95) 9 535 1714 </p>
+                        <p><img src="mail.png" width="20px"> info@sterling-myanmar.com </p>
+    
+                    
+                </div>
+                <div class="subcol">
+                    <h5>FACEBOOK LINK</h5>
+                    <a href="#"><img src="strel.jpg" width="100px" class="fblink"></a>
+                </div>
+            </div>
+            <div class="footer">
+            <p>Copyright @ STERLING MYANMAR. All Right Reserved. | Designed By <a href="#" >Host Myanmar</a></p>
+            </div>
+        </div>
+    </body>
+</html>
